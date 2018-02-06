@@ -5,7 +5,7 @@
   <groupId>com.vebinar</groupId>
   <artifactId>demoversion</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <packaging>war</packaging>
 
   <name>demoversion</name>
   <url>http://maven.apache.org</url>
@@ -20,6 +20,11 @@
       <artifactId>junit</artifactId>
       <version>3.8.1</version>
       <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-context</artifactId>
+      <version>4.3.12.RELEASE</version>
     </dependency>
   </dependencies>
 </project>
